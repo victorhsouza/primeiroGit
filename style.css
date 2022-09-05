@@ -1,0 +1,95 @@
+body{
+    background-color: blue;
+}
+
+
+header, footer{
+    text-align: center;
+    color: white;
+}
+footer{
+    font-size: 1.5em;
+}
+
+main{
+    border: 1px solid black;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+    background-color: rgb(213,216,266);
+    border-radius: 10px;
+}
+
+div#div-1{
+    text-align: center;
+    letter-spacing: 2px;
+   
+}
+
+div#div-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+div#div-3{
+   display: flex;
+   justify-content: center;
+   gap: 1em;
+   flex-wrap: wrap;
+}
+
+div.cabecalho{
+    color: red;
+    font-size: 20px;
+}
+
+div.imagem img{
+    width: 20em;
+    margin: auto;
+    display: block;
+}
+
+div.box{
+    background-color: red;
+    width: 30vw;
+    height: 30vh;
+    /* padding: 20px; */
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+div.box li{
+    margin-bottom: 10px;
+}
+
+div.box-1{
+    background-color: blue;
+   
+}
+div.box-2{
+    height: auto;
+}
+
+div.box-3{
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_41.jpg');
+   background-size: cover;
+   
+ 
+}
+div.box-4{
+    background-image: url('https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt5388dc09a75213a1/60ee0b7912cadb2032d63aa7/Classic_Ashe_Splash.jpg');
+   background-size: cover;
+   
+}
+div.box-5{
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_25.jpg');
+   background-size: cover;
+  
+}
+div.box-6{
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg');
+   background-size: cover;
+   
+}
+
